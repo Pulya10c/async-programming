@@ -1,0 +1,35 @@
+.outer {
+  height: 250px;
+  width: 250px;
+  background-color: blueviolet;
+  flex: 1;
+}
+
+.inner {
+  height: 100px;
+  background-color: green;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.result {
+  font-size: xx-large;
+  flex: 1;
+  font-size: 600;
+  text-align: center;
+}
+
+.step {
+  margin: 0;
+}
+
+.mutate,
+.promise {
+  color: rgb(151, 99, 3);
+}
+
+.timeout {
+  color: green;
+}
